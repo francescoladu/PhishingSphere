@@ -203,14 +203,6 @@ Generated artifacts are saved under the corresponding `outputs/` directories and
 - permutation importance;
 - SHAP explanations.
 
-## Limitations
-
-The dataset is historical and relies on hand-designed, pre-discretized features. It therefore does not contain richer information such as raw URLs, full HTML/DOM structure, webpage text, or screenshots.
-
-The presence of identical predictor profiles associated with different labels also shows that the 30-feature representation cannot always uniquely determine the class.
-
-Future work could evaluate the pipeline on recent temporally separated data and richer URL, DOM, textual, and visual representations.
-
 ## Dataset
 
 R. Mohammad and L. McCluskey, **Phishing Websites**, UCI Machine Learning Repository, 2012.  
